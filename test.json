@@ -1,0 +1,52 @@
+{
+    "id": "e79c0ebf-63b5-49b3-899f-7fea95a631d2",
+    "orgId": "dc9b7edc-b03a-481e-b762-1b0c38048be8",
+    "name": "Test",
+    "voice": {
+        "voiceId": "alloy",
+        "provider": "openai"
+    },
+    "createdAt": "2024-07-03T19:18:34.078Z",
+    "updatedAt": "2024-08-08T15:28:06.531Z",
+    "model": {
+        "model": "gpt-4o",
+        "toolIds": [
+            "7bd5aab3-d620-43de-aab5-8030b5a9db67",
+            "742fb823-21e1-4726-94cf-067009e071b1",
+            "30730356-206f-4ee3-a843-7f0992e7cef6"
+        ],
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant."
+            }
+        ],
+        "provider": "openai",
+        "temperature": 0.7
+    },
+    "firstMessage": "Hello what can I do for you?",
+    "transcriber": {
+        "model": "nova-2",
+        "language": "en",
+        "provider": "deepgram"
+    },
+    "clientMessages": [
+        "transcript",
+        "hang",
+        "function-call",
+        "speech-update",
+        "metadata",
+        "conversation-update",
+        "tool-calls",
+        "tool-calls-result"
+    ],
+    "serverMessages": [
+        "end-of-call-report",
+        "status-update",
+        "hang",
+        "function-call",
+        "transcript",
+        "tool-calls"
+    ],
+    "isServerUrlSecretSet": false
+}

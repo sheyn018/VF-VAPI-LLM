@@ -10,7 +10,7 @@ payload = {
 }
 
 headers = {
-    "Authorization": "Bearer 79087b31-e0cd-4023-8f7d-a4518453c1e7",
+    "Authorization": "Bearer ",
     "Content-Type": "application/json"
 }
 

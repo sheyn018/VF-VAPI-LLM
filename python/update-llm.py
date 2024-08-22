@@ -1,6 +1,6 @@
 import requests
 
-url = "https://api.vapi.ai/assistant/951bb5a8-162d-4ffb-9673-a6990e2929fd"
+url = "https://api.vapi.ai/assistant/793a6374-4755-4d0b-bb49-99cef3f9be6e"
 
 payload = {
   "voice": {
@@ -13,7 +13,7 @@ payload = {
 	"endCallFunctionEnabled": True,
 	"firstMessageMode":"assistant-speaks-first-with-model-generated-message",
 	"model": {
-		"url": "https://4476-136-158-25-179.ngrok-free.app/api",
+		"url": "https://992d-136-158-25-179.ngrok-free.app/api",
 		"model": "dmapi",
 		"provider": "custom-llm"
 	},
@@ -41,7 +41,7 @@ payload = {
 }
 
 headers = {
-    "Authorization": "Bearer 48d98dd9-e7d5-40a3-a3bc-643c32dc570d",
+    "Authorization": "Bearer ",
     "Content-Type": "application/json"
 }
 
